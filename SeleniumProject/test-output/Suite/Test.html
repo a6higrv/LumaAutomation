@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 27 21:54:00 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>353 seconds (353953 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.luma.testcases.ShipppingtoCheckoutTest.shippingtoCheckout()'><b>shippingtoCheckout</b><br>Test class: com.luma.testcases.ShipppingtoCheckoutTest</td>
+<td></td>
+<td>28</td>
+<td>com.luma.testcases.ShipppingtoCheckoutTest@15888343</td></tr>
+<tr>
+<td title='com.luma.testcases.DeleteCartitem.deleteCart()'><b>deleteCart</b><br>Test class: com.luma.testcases.DeleteCartitem</td>
+<td></td>
+<td>2</td>
+<td>com.luma.testcases.DeleteCartitem@790da477</td></tr>
+<tr>
+<td title='com.luma.testcases.SignInTest.signInPositive()'><b>signInPositive</b><br>Test class: com.luma.testcases.SignInTest</td>
+<td></td>
+<td>3</td>
+<td>com.luma.testcases.SignInTest@194fad1</td></tr>
+<tr>
+<td title='com.luma.testcases.FooterSearchTerm.searchTerm()'><b>searchTerm</b><br>Test class: com.luma.testcases.FooterSearchTerm</td>
+<td></td>
+<td>6</td>
+<td>com.luma.testcases.FooterSearchTerm@d554c5f</td></tr>
+<tr>
+<td title='com.luma.testcases.DeleteCartitem.login()'><b>login</b><br>Test class: com.luma.testcases.DeleteCartitem</td>
+<td></td>
+<td>7</td>
+<td>com.luma.testcases.DeleteCartitem@790da477</td></tr>
+<tr>
+<td title='com.luma.testcases.ScrollPage.scr()'><b>scr</b><br>Test class: com.luma.testcases.ScrollPage</td>
+<td></td>
+<td>5</td>
+<td>com.luma.testcases.ScrollPage@4b8d604b</td></tr>
+<tr>
+<td title='com.luma.testcases.LogoTest.logo()'><b>logo</b><br>Test class: com.luma.testcases.LogoTest</td>
+<td></td>
+<td>1</td>
+<td>com.luma.testcases.LogoTest@72c8e7b</td></tr>
+<tr>
+<td title='com.luma.testcases.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.luma.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.luma.testcases.HomePageTest@65f8f5ae</td></tr>
+<tr>
+<td title='com.luma.testcases.HomePageTest.verifyLogoPresence()'><b>verifyLogoPresence</b><br>Test class: com.luma.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.luma.testcases.HomePageTest@65f8f5ae</td></tr>
+<tr>
+<td title='com.luma.testcases.GearDropdown.gearDropDownSelectitem()'><b>gearDropDownSelectitem</b><br>Test class: com.luma.testcases.GearDropdown</td>
+<td></td>
+<td>9</td>
+<td>com.luma.testcases.GearDropdown@5fb759d6</td></tr>
+<tr>
+<td title='com.luma.testcases.FooterNotes.notes()'><b>notes</b><br>Test class: com.luma.testcases.FooterNotes</td>
+<td></td>
+<td>5</td>
+<td>com.luma.testcases.FooterNotes@68c9d179</td></tr>
+<tr>
+<td title='com.luma.testcases.SearchTest.searchPositive()'><b>searchPositive</b><br>Test class: com.luma.testcases.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>com.luma.testcases.SearchTest@431cd9b2</td></tr>
+<tr>
+<td title='com.luma.testcases.Womendropdown.womenDropDownSelectitem()'><b>womenDropDownSelectitem</b><br>Test class: com.luma.testcases.Womendropdown</td>
+<td></td>
+<td>10</td>
+<td>com.luma.testcases.Womendropdown@57bc27f5</td></tr>
+<tr>
+<td title='com.luma.testcases.CreateAccountTest.createAccountPositive()'><b>createAccountPositive</b><br>Test class: com.luma.testcases.CreateAccountTest</td>
+<td></td>
+<td>4</td>
+<td>com.luma.testcases.CreateAccountTest@26abb146</td></tr>
+<tr>
+<td title='com.luma.testcases.SelectProductTest.searchAndSelectProduct()'><b>searchAndSelectProduct</b><br>Test class: com.luma.testcases.SelectProductTest</td>
+<td></td>
+<td>4</td>
+<td>com.luma.testcases.SelectProductTest@38467116</td></tr>
+<tr>
+<td title='com.luma.testcases.Mendropdown.menDropDownSelectitem()'><b>menDropDownSelectitem</b><br>Test class: com.luma.testcases.Mendropdown</td>
+<td></td>
+<td>9</td>
+<td>com.luma.testcases.Mendropdown@5c7933ad</td></tr>
+<tr>
+<td title='com.luma.testcases.Shipping.checkoutPositive()'><b>checkoutPositive</b><br>Test class: com.luma.testcases.Shipping</td>
+<td></td>
+<td>68</td>
+<td>com.luma.testcases.Shipping@33ecda92</td></tr>
+<tr>
+<td title='com.luma.testcases.SignOutTest.signOut()'><b>signOut</b><br>Test class: com.luma.testcases.SignOutTest</td>
+<td></td>
+<td>7</td>
+<td>com.luma.testcases.SignOutTest@14fc5f04</td></tr>
+<tr>
+<td title='com.luma.testcases.SearchTest.searchNegativeNoResults()'><b>searchNegativeNoResults</b><br>Test class: com.luma.testcases.SearchTest</td>
+<td></td>
+<td>3</td>
+<td>com.luma.testcases.SearchTest@431cd9b2</td></tr>
+<tr>
+<td title='com.luma.testcases.AddToCartTest.addToCartPositive()'><b>addToCartPositive</b><br>Test class: com.luma.testcases.AddToCartTest</td>
+<td></td>
+<td>4</td>
+<td>com.luma.testcases.AddToCartTest@5b7a7f33</td></tr>
+<tr>
+<td title='com.luma.testcases.SortBy.sortByDropDown()'><b>sortByDropDown</b><br>Test class: com.luma.testcases.SortBy</td>
+<td></td>
+<td>5</td>
+<td>com.luma.testcases.SortBy@5e7cd6cc</td></tr>
+<tr>
+<td title='com.luma.testcases.FooterPrivacy.privacyPolicy()'><b>privacyPolicy</b><br>Test class: com.luma.testcases.FooterPrivacy</td>
+<td></td>
+<td>7</td>
+<td>com.luma.testcases.FooterPrivacy@2dfaea86</td></tr>
+</table><p>
+</body>
+</html>
